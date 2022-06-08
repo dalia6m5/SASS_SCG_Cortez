@@ -1,0 +1,17 @@
+$colorSCG: #2368AD;
+$color2SCG: #C73930;
+@import "cabecera-index";
+@import "cabecera";
+@import "contenido";
+@import "pie";
+@import "media";
+
+@keyframes logo-animacion {
+    0% {
+        transform: translate(-10px, 0px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+    
+}
