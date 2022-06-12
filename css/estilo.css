@@ -188,7 +188,7 @@
 }
 
 #contenido #descripcion .descripcion-texto p {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 #contenido #descripcion .descripcion-img {
@@ -278,7 +278,7 @@
 }
 
 #contenido #call-cotiza h2 {
-  font-size: 40px;
+  font-size: 50px;
   margin-bottom: 20px;
 }
 
@@ -312,7 +312,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 35px;
+  font-size: 50px;
   margin-bottom: 30px;
 }
 
@@ -354,7 +354,7 @@
 }
 
 #contenido #titulo-qs h2 {
-  font-size: 60px;
+  font-size: 50px;
   color: white;
 }
 
@@ -400,7 +400,7 @@
 }
 
 #contenido #servicios .tit-servicios {
-  font-size: 40px;
+  font-size: 50px;
   color: #2368AD;
   text-align: center;
   margin-bottom: 50px;

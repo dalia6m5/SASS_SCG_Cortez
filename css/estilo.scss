@@ -1,5 +1,17 @@
 $colorSCG: #2368AD;
 $color2SCG: #C73930;
+
+$fuentes-tamanos: (
+    titulos: 50px,
+    subtitulo: 25px,
+    parrafo: 20px,
+    parrafo-dos: 25px,
+    nav: 18px,
+    form: 30px,
+    titulo-grid: 15px
+);
+
+
 @import "cabecera-index";
 @import "cabecera";
 @import "contenido";
@@ -15,5 +27,6 @@ $color2SCG: #C73930;
     }
     
 }
+
 
 

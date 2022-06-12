@@ -24,7 +24,7 @@ $color2SCG: #C73930;
                     margin: 10px;
                     color: white;
                     text-decoration: none;
-                    font-size: 18px;
+                    font-size: map-get($fuentes-tamanos, nav); 
 
                     &:hover{
                         color: $colorSCG;

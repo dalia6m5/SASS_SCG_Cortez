@@ -23,7 +23,7 @@ $color2SCG: #C73930;
             }
 
             p {
-                font-size: 18px;
+                font-size: map-get($fuentes-tamanos, parrafo); 
             }
         }
 
@@ -44,7 +44,7 @@ $color2SCG: #C73930;
             color: $colorSCG;
             display: flex;
             justify-content: center;
-            font-size: 25px;
+            font-size: map-get($fuentes-tamanos, subtitulo); 
         }
 
         .servicios-iconos {
@@ -64,7 +64,7 @@ $color2SCG: #C73930;
 
                  h3 {
                         color: $colorSCG;
-                        font-size: 15px;
+                        font-size: map-get($fuentes-tamanos, titulo-grid);
                         text-align: center;
                         padding: 0px 5px;
                 }
@@ -85,7 +85,7 @@ $color2SCG: #C73930;
         padding: 80px;
 
         h2 {
-            font-size: 40px;
+            font-size: map-get($fuentes-tamanos, titulos);
             margin-bottom: 20px;
         }
 
@@ -114,7 +114,7 @@ $color2SCG: #C73930;
             color: $colorSCG;
             display: flex;
             justify-content: center;
-            font-size: 35px;
+            font-size: map-get($fuentes-tamanos, titulos);
             margin-bottom: 30px;
          }
 
@@ -135,7 +135,7 @@ $color2SCG: #C73930;
                         }
 
                         h4 {
-                            font-size: 15px;
+                            font-size: map-get($fuentes-tamanos, titulo-grid);
                             color: $colorSCG;
                             margin-bottom: 5px;
                         }
@@ -163,7 +163,7 @@ $color2SCG: #C73930;
         margin: 50px;
 
         h2 {
-            font-size: 60px;
+            font-size: map-get($fuentes-tamanos, titulos);
             color: white;
         }
     }
@@ -184,7 +184,7 @@ $color2SCG: #C73930;
                 }
 
                 p {
-                    font-size: 25px;
+                    font-size: map-get($fuentes-tamanos, parrafo-dos);
                     text-align: justify;
                 }
             }
@@ -206,7 +206,7 @@ $color2SCG: #C73930;
         margin: 50px;
 
         .tit-servicios {
-            font-size: 40px;
+            font-size: map-get($fuentes-tamanos, titulos);
             color: #2368AD;
             text-align: center;
             margin-bottom: 50px; 
@@ -227,12 +227,12 @@ $color2SCG: #C73930;
                 align-items: center;
 
                 h3 {
-                    font-size: 25px;
+                    font-size: map-get($fuentes-tamanos, subtitulo);
                     padding: 10px; 
                 }
 
                 p {
-                    font-size: 20px;
+                    font-size: map-get($fuentes-tamanos, parrafo);
                     padding: 10px;
                     text-align: justify;  
                 }
@@ -298,7 +298,7 @@ $color2SCG: #C73930;
             color: $colorSCG; 
 
             h2 {
-                font-size: 30px;
+                font-size: map-get($fuentes-tamanos, form);
                 font-weight: 500; 
             }
 
