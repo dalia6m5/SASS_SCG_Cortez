@@ -78,6 +78,18 @@
         }
     }
 
+    #cabecera {
+        .cabecera-nav {
+            ul {
+                li {
+                    a {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+
     #contenido{
         #descripcion {
             flex-direction: row;
