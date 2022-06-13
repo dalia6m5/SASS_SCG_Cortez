@@ -12,15 +12,14 @@ $color2SCG: #C73930;
             margin: 7% 5%;
             color: white;
 
-            a {
-                text-decoration: none;
-                color: $colorSCG;
-                background-color: white;
-                padding: 7px 12px;
-                border-radius: 20px;
-                text-align: center;
-                transition: color, background-color 500ms;
-            }
+             a {
+                @include boton; 
+            
+                &:hover{
+                    color: aliceblue;
+                    background-color:$colorSCG;
+                }
+            } 
 
             h1 {
                 font-size: map-get($fuentes-tamanos, titulos );

@@ -1,4 +1,6 @@
 @charset "UTF-8";
+/* mapa */
+/* mixin */
 #cabecera-index {
   width: 100%;
   height: 100vh;
@@ -17,10 +19,15 @@
   color: #2368AD;
   background-color: white;
   padding: 7px 12px;
-  border-radius: 20px;
+  border-radius: 50px;
   text-align: center;
   -webkit-transition: color, background-color 500ms;
   transition: color, background-color 500ms;
+}
+
+#cabecera-index .cabecera-título a:hover {
+  color: aliceblue;
+  background-color: #2368AD;
 }
 
 #cabecera-index .cabecera-título h1 {
@@ -283,11 +290,12 @@
 }
 
 #contenido #call-cotiza a {
-  color: #2368AD;
-  background-color: aliceblue;
   text-decoration: none;
-  padding: 5px 9px;
+  color: #2368AD;
+  background-color: white;
+  padding: 7px 12px;
   border-radius: 50px;
+  text-align: center;
   -webkit-transition: color, background-color 500ms;
   transition: color, background-color 500ms;
 }
@@ -356,6 +364,13 @@
 #contenido #titulo-qs h2 {
   font-size: 50px;
   color: white;
+}
+
+#contenido #info .descripcion p {
+  max-width: 700px;
+  text-align: justify;
+  font-size: 24px;
+  color: #2368AD;
 }
 
 #contenido #info .mv {

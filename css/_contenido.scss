@@ -90,12 +90,7 @@ $color2SCG: #C73930;
         }
 
         a {
-            color: $colorSCG;
-            background-color: aliceblue;
-            text-decoration: none;
-            padding: 5px 9px;
-            border-radius: 50px;
-            transition: color, background-color 500ms;
+           @include boton;
 
             &:hover{
                 color: aliceblue;
@@ -169,6 +164,16 @@ $color2SCG: #C73930;
     }
 
     #info {
+
+        .descripcion {
+            p {
+                max-width: 700px;
+                text-align: justify;
+                 font-size: 24px;
+                 color: $colorSCG; 
+            }
+        }
+        
         .mv {
             display: grid;
             grid-template-columns: 1fr 1fr;

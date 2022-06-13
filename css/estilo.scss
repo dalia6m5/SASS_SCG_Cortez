@@ -1,6 +1,8 @@
 $colorSCG: #2368AD;
 $color2SCG: #C73930;
 
+/* mapa */
+
 $fuentes-tamanos: (
     titulos: 50px,
     subtitulo: 25px,
@@ -10,6 +12,20 @@ $fuentes-tamanos: (
     form: 30px,
     titulo-grid: 15px
 );
+
+/* mixin */
+
+@mixin boton {
+    text-decoration: none;
+                color: $colorSCG;
+                background-color: white;
+                padding: 7px 12px;
+                border-radius: 50px;
+                text-align: center;
+                transition: color, background-color 500ms;
+
+
+}
 
 
 @import "cabecera-index";
