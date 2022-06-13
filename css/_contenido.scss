@@ -54,13 +54,17 @@ $color2SCG: #C73930;
             margin-top: 50px;
 
             .servicio {
+                 /* border-radius: 5px;
+                 padding: 20px 5px; 
+                 background-color: aliceblue; */
+                @extend .caja;
+
                  display: flex;
                  flex-direction: column;
                  justify-content: center;
                  align-items: center;
-                 background-color: aliceblue;
-                 border-radius: 5px;
-                 padding: 20px 5px; 
+                 
+                 
 
                  h3 {
                         color: $colorSCG;
@@ -110,6 +114,7 @@ $color2SCG: #C73930;
             display: flex;
             justify-content: center;
             font-size: map-get($fuentes-tamanos, titulos);
+            text-align: center;
             margin-bottom: 30px;
          }
 
@@ -117,10 +122,11 @@ $color2SCG: #C73930;
             div {
                 .col{
                     .cita-cliente {
-                        padding: 30px 5px 15px 5px;
+                        /* padding: 30px 10px 15px 10px !important;
                         text-align: center;
                         border-radius: 5px;
-                        background-color: aliceblue;
+                        background-color: aliceblue; */
+                        @extend .caja;
                         position: relative; 
 
                         img {

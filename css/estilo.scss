@@ -27,6 +27,15 @@ $fuentes-tamanos: (
 
 }
 
+ /* extend */     
+ 
+ .caja {
+    padding: 30px 10px 15px 10px !important;
+    text-align: center;
+    border-radius: 5px;
+    background-color: aliceblue;  
+ }
+
 
 @import "cabecera-index";
 @import "cabecera";
